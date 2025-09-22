@@ -1,3 +1,48 @@
+/* ===== REUSABLE CLASSES ===== */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition);
+  background: var(--accent-color);
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(52,152,219,0.08);
+}
+.btn-primary {
+  background: var(--secondary-color);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: var(--accent-color);
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+}
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  transition: var(--transition);
+  position: relative;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(44,62,80,0.13);
+  transform: translateY(-4px) scale(1.01);
+}
+.card-featured {
+  border: 2px solid var(--accent-color);
+}
 /* ===== VARIABLES & RESET ===== */
 :root {
   --primary-color: #2c3e50;
