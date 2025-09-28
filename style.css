@@ -553,7 +553,7 @@ body.dark-mode footer,
 body.dark-mode section,
 body.dark-mode .card {
   background: #7ed6df !important;
-  color: #7ed6df !important;
+  color: #f4f6fa !important;
   box-shadow: none;
 }
 body.dark-mode .btn,
