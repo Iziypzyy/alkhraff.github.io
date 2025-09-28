@@ -542,3 +542,28 @@ footer .copyright, footer > p:last-child {
     padding: var(--spacing-lg) 0 var(--spacing-sm) 0;
   }
 }
+
+body.dark-mode {
+  background: #181c23;
+  color: #f4f6fa;
+}
+body.dark-mode header,
+body.dark-mode main,
+body.dark-mode footer,
+body.dark-mode section,
+body.dark-mode .card {
+  background: #23272f !important;
+  color: #f4f6fa !important;
+  box-shadow: none;
+}
+body.dark-mode .btn,
+body.dark-mode .btn-primary {
+  background: #3498db;
+  color: #fff;
+}
+body.dark-mode a {
+  color: #7ed6df;
+}
+body.dark-mode a:hover {
+  color: #e74c3c;
+}
