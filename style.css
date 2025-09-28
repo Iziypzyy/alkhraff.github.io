@@ -552,7 +552,7 @@ body.dark-mode main,
 body.dark-mode footer,
 body.dark-mode section,
 body.dark-mode .card {
-  background: #7ed6df !important;
+  background: #23272f !important;
   color: #f4f6fa !important;
   box-shadow: none;
 }
@@ -565,5 +565,26 @@ body.dark-mode a {
   color: #7ed6df;
 }
 body.dark-mode a:hover {
-  color: #e74c3c;
+  color: #ffe066;
+}
+body.dark-mode p,
+body.dark-mode #products p,
+body.dark-mode #about p,
+body.dark-mode #newsletter p,
+body.dark-mode footer p,
+body.dark-mode .card p {
+  color: #e6e6e6 !important;
+  /* abu terang, nyaman di dark mode */
+  text-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #ffe066 !important;
+  /* kuning pastel, kontras dan tetap elegan */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
